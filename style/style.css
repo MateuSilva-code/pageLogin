@@ -1,0 +1,46 @@
+/* Definir o conjunto de caracteres */
+@charset "UTF-8";
+/* Importar fonte personalizada */
+@font-face {
+    font-family: "roboto";
+    src: url("../fonts/RobotoMono-VariableFont_wght.ttf") format("opentype");
+}
+/* Reset de estilos para todos os elementos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* Definir fonte base e tamanho padrão para o HTML */
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:#c1c1c1  ;
+    
+        
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(135deg, #111, #323232, #5f5f5f, #a0a0a0, #dfdfdf);
+    display: grid;
+    
+
+}
+div.conteiner-form{
+    width: 35vw;
+    height: 60vh;
+    align-self: center;
+    justify-self: center;
+    border: 1px solid #f5f5f5 ;
+    border-radius: 5px;
+    background-color: #1b1b1b80;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: ;
+}
